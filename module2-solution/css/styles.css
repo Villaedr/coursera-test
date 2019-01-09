@@ -1,30 +1,42 @@
+body {
+	margin: 0px;
+}
+
 * {box-sizing: border-box;
 }
 h1 {
 	margin-bottom: 15px;
-}
-
-section-title {
-	position: relative;
-	top:0px;
-	right: 0px;
-	background-color: red;
+	border-left: 10px solid white;
 }
 
 section {
+	background-color: #00FFFF;
+	position: relative;
+	border: 10px solid white;
+}
+
+h2 {
+	position: relative;
+	margin: 0px;
+	background-color: brown;
+	text-align: center;
+	width: 15%;
 	border: 1px solid black;
-	background-color: #A52A2A;
-	width: 90%;
-	height; 150px;
-	margin-right: auto;
-	margin-left: auto;
+	float: right;
+	}
+
+p {
+	border: 1px solid black;
+	background-color: lightgrey;
 	font-family: Helvetica;
 	color: black;
+	margin: 0px;
+	padding-top: 40px;
+
 }
 
 .row {
 	width: 100%;
-	margin-bottom: 15px;
 }
 
 @media (min-width: 992px) {
@@ -32,7 +44,6 @@ section {
 	.col-lg-7, .col-lg-8, .col-lg-9,.col-lg-10, .col-lg-11, .col-lg-12
 	{ 
 	float: left;
-	border: 1px solid green;
 	}
 	.col-lg-1 {
 		width: 8.33%;
@@ -77,7 +88,6 @@ section {
 	.col-md-7, .col-md-8, .col-md-9,.col-md-10, .col-md-11, .col-md-12
 	{
 	float: left;
-	border: 1px solid green;
 	}
 	.col-md-1 {
 		width: 8.33%;
@@ -122,7 +132,6 @@ section {
 	.col-sd-7, .col-sd-8, .col-sd-9,.col-sd-10, .col-sd-11, .col-sd-12
 	{
 	float: left;
-	border: 1px solid green;
 	}
 	.col-sd-1 {
 		width: 8.33%;
